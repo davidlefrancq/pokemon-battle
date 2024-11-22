@@ -1,4 +1,4 @@
-# pokemon
+# Pokemon Battle
 
 ## Requirement
 PDM: https://pdm-project.org/en/latest/#installation
