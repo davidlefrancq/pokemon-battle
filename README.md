@@ -1,5 +1,8 @@
 # pokemon
 
+## Requirement
+PDM: https://pdm-project.org/en/latest/#installation
+
 ## Start client
 ```bash
 pdm run start
