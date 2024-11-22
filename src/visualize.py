@@ -110,7 +110,7 @@ def main():
     plot_type_win_rates(data)
     plot_legendary_impact(data)
     
-    print("Visualisations générées dans le dossier src/data/")
+    print("Visualisations générées dans le dossier src/visualize/")
 
 if __name__ == "__main__":
     main()

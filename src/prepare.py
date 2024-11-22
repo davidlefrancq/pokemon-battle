@@ -83,10 +83,7 @@ def main():
     # Prépare les données
     preparator = PokemonDataPreparator()
     preparator.load_data('src/data/pokedex.csv', 'src/data/combats.csv')
-    
-    # Sauvegarde le préparateur pour pouvoir accéder aux données des Pokémon plus tard
-    pd.to_pickle(preparator, 'src/model/preparator.pkl')
-    
+        
     # Prépare et sauvegarde les données d'entraînement
     features_df = preparator.prepare_features()
     X_train, X_test, y_train, y_test = preparator.split_data(features_df)
